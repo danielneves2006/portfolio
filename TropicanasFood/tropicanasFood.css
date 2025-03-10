@@ -1,0 +1,279 @@
+*{margin: 0%;}
+
+
+@font-face {
+    font-family:'CaesarDressing';
+    src: url(../font/fontCapy/CaesarDressing-Regular.ttf);
+}
+@font-face {
+    font-family:'lemon_milk';
+    src: url(../font/lemon_milk/LEMONMILK-Medium.otf);
+}
+@font-face {
+    font-family:'inter';
+    src: url(../font/inter/Inter_18pt-Black.ttf);
+}
+
+
+body{
+    background-color: #363F35;
+    color: #fff;
+    overflow-x: hidden; /* Esconde apenas a rolagem horizontal */
+}
+h3{
+  font-family: inter;
+  font-size: 1.5rem;
+  color: #B0968C;
+  text-align: start;
+}
+p{
+    font-family: inter;
+    font-size: 1.5rem;
+    color: #B0968C;
+  }
+h1{
+  font-family: CaesarDressing;
+  font-size: 3rem;
+  color: #E5E29C;
+}
+   /*Banner Principal*/
+  .BlocoElements{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../img/TropicanasFood/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .BlocoElements a{
+    text-decoration: none;
+  }
+  .BlocoElements h1{
+    font-size: 5rem;
+    padding-top: 3rem;
+  }
+  .BlocoElements h2{
+    font-family: inter;
+    font-size: 1rem;
+    color: #fff;
+  }
+  .BlocoElements p{
+    text-align: justify;
+    width: 45rem;
+    padding: 1rem 2rem 4rem 2rem;
+  }
+  .BlocoElements img{
+    width: 45rem;
+    padding: 2rem 2rem 0.4rem 2rem;
+  }
+
+  /*Ichi.IO*/
+  #ichiIO{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #445642;
+    padding: 1rem;
+    gap: 2rem;
+  }
+  #ichiIO h2{
+    font-family: CaesarDressing;
+    font-size: 3rem;
+    color: #E5E29C;
+  }
+  #ichiIO a{
+    font-family: CaesarDressing;
+    font-size: 2.5rem;
+    color: #E5E29C;
+  }
+  #ichiIO a:hover{
+    transform: scale(1.05);
+    transition: ease-in-out .2s;
+  }
+
+  /*Especificações*/
+  #especificacoes{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 8rem;
+  }
+  #especificacoes img{
+    width: 5rem;
+    padding-top: 5rem;
+  }
+  #engine{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    gap: 1rem;
+  }
+  #engine h2{
+    padding-top: 4rem;
+    font-family: inter;
+    font-size: 2rem;
+    color: #201F11;
+  }
+  #estilo{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    gap: 1rem;
+  }
+  #estilo h2{
+    padding-top: 4rem;
+    font-family: inter;
+    font-size: 2rem;
+    color: #201F11;
+  }
+  #design{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    gap: 1rem;
+  }
+  #design h2{
+    padding-top: 4rem;
+    font-family: inter;
+    font-size: 2rem;
+    color: #201F11;
+  }
+
+  /*Tema da Jam*/
+  #temaDaJAM{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 6rem 0rem 6rem 0rem;
+  }
+  #temaDaJAM h3{
+    text-align: center;
+    width: 60rem;
+    padding: 1rem 2rem 2rem 2rem;
+  }
+  #temaDaJamImgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
+  #temaDaJamImgs img{
+    height: 20rem;
+  }
+  /*Bloco Gameplay e Game Design*/
+  #GameplayGameDesign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+  }
+  /*Gameplay*/
+  #Gameplay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  #Gameplay img{
+    width: 25rem;
+  }
+  /*Game Design*/
+  #gameDesign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #gameDesign h3{
+    padding-top: 8rem;
+    font-size: 4rem;
+  }
+  /*imagens*/
+  #imagens1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8rem 3rem 3rem 3rem;  
+  }
+  #imagens1 img{
+    width: 65rem;
+  }
+  #imagens2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+  }
+  #imagens2 img{
+    width: 30rem;
+  }
+  #imagens2Bloco{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5rem;
+  }
+  #imagens2Bloco img{
+    width: 30rem;
+  }
+
+  /*Personagens*/
+  #personagens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 6rem;
+  }
+  #personagensImgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 4rem 0rem 4rem 0rem;
+  }
+  #personagensImgs img{
+    height: 15rem;
+  }
+
+  /*Cenário*/
+  #cenario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 10rem;
+  }
+  #cenario  #cenarioImagemPrincipal img{
+    width: 70rem;
+    padding-top: 3rem;
+  }
+  #cenarioBloco{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 3rem;
+  }
+  #cenarioBloco img{
+    height: 20rem;
+  }
+  #cenarioBloco h3{
+    width: 20rem; 
+  }
+
+  /* copyrigt */
+  .copyrigt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: lemon_milk;
+    font-size: 0.8rem;
+    position: relative;
+    bottom: 60px;
+  }

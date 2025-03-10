@@ -1,0 +1,378 @@
+*{margin: 0%;}
+
+
+@font-face {
+    font-family:'CaesarDressing';
+    src: url(../font/fontCapy/CaesarDressing-Regular.ttf);
+}
+@font-face {
+    font-family:'lemon_milk';
+    src: url(../font/lemon_milk/LEMONMILK-Medium.otf);
+}
+@font-face {
+    font-family:'inter';
+    src: url(../font/inter/Inter_18pt-Black.ttf);
+}
+
+
+body{
+    background-color: #423535;
+    color: #fff;
+    overflow-x: hidden; /* Esconde apenas a rolagem horizontal */
+}
+h3{
+  font-family: inter;
+  font-size: 1.5rem;
+  color: #AF997A;
+  text-align: start;
+}
+h1{
+  font-family: CaesarDressing;
+  font-size: 3rem;
+  color: #fff;
+}
+
+.BlocoElements{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .BlocoElements a{
+    text-decoration: none;
+  }
+  .BlocoElements h1{
+    font-family: CaesarDressing;
+    font-size: 5rem;
+    color: #fff;
+    padding-top: 3rem;
+  }
+  .BlocoElements h2{
+    font-family: inter;
+    font-size: 1rem;
+    color: #fff;
+  }
+  .BlocoElements h3{
+    font-family: inter;
+    font-size: 0.8rem;
+    color: #fff;
+    padding-bottom: 1rem;
+  }
+  .BlocoElements p{
+    font-family: inter;
+    font-size: 1.5rem;
+    color: #AF997A;
+    text-align: justify;
+    width: 45rem;
+    padding: 1rem 2rem 4rem 2rem;
+
+  }
+  .BlocoElements img{
+    width: 45rem;
+    padding: 2rem 2rem 0.4rem 2rem;
+  }
+
+
+  #ichiIO{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #634A4A;
+    padding: 1rem;
+    gap: 2rem;
+  }
+  #ichiIO h2{
+    font-family: CaesarDressing;
+    font-size: 3rem;
+    color: #fff;
+  }
+  #ichiIO a{
+    font-family: CaesarDressing;
+    font-size: 2.5rem;
+    color: #fff;
+  }
+  #ichiIO a:hover{
+    transform: scale(1.05);
+    transition: ease-in-out .2s;
+  }
+
+  #especificacoes{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 8rem;
+  }
+  #especificacoes img{
+    width: 5rem;
+    padding-top: 5rem;
+  }
+  #engine{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    gap: 1rem;
+  }
+  #engine h2{
+    padding-top: 4rem;
+    font-family: inter;
+    font-size: 2rem;
+    color: #fff;
+  }
+  #estilo{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    gap: 1rem;
+  }
+  #estilo h2{
+    padding-top: 4rem;
+    font-family: inter;
+    font-size: 2rem;
+    color: #fff;
+  }
+  #design{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    gap: 1rem;
+  }
+  #design h2{
+    padding-top: 4rem;
+    font-family: inter;
+    font-size: 2rem;
+    color: #fff;
+  }
+
+  .titleMancha{
+    background-image: url(../img/Capy/ink3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .titleMancha h1{
+    padding: 2rem;
+    font-family: CaesarDressing;
+    font-size: 3rem;
+    color: #fff;
+  }
+  #desafio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 6rem;
+  }
+  #desafio h3{
+    font-family: inter;
+    font-size: 2rem;
+    color: #AF997A;
+    text-align: center;
+    width: 60rem;
+    padding: 1rem 2rem 4rem 2rem;
+  }
+  #LevelDesign_GameDesign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #LevelDesign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding-bottom:6rem;
+  }
+  #LevelDesign img{
+    width: 25rem;
+  }
+  #LevelDesign h1{
+    padding: 2rem;
+    font-family: CaesarDressing;
+    font-size: 3rem;
+    color: #fff;
+  }
+  #GameDesign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #GameDesignDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #634A4A;
+    padding: 1rem;
+    margin: 2rem;
+    border-radius: 20px;
+  }
+  #GameDesign img{
+    width: 23rem;
+  }
+  #GameDesign h1{
+    font-family: CaesarDressing;
+    font-size: 3rem;
+    color: #fff;
+  }
+  #GameDesign h3{
+    font-family: inter;
+    font-size: 1.5rem;
+    color: #AF997A;
+    text-align: start;
+    width: 22rem;
+    padding: 1rem 2rem 4rem 2rem;
+  }
+
+  #montagem{
+    background-color: #634A4A;
+  }
+
+  .titleMancha2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .titleMancha2 h1{
+    padding: 4rem;
+    font-family: CaesarDressing;
+    font-size: 3rem;
+    color: #fff;
+    background-image: url(../img/Capy/ink4.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  #montagemBloco1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  #montagemBloco1_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+  }
+  #montagemBloco1 #montagemBloco1_1 #bloco1div1 img{
+    width: 35rem;
+  }
+  #montagemBloco1 #montagemBloco1_1 #bloco1div2 img{
+    width: 20rem;
+    margin-top: 1rem;
+  }
+  #montagemBloco1 #montagemBloco1_1 #bloco1div2 h3{
+    text-align: start;
+    width: 22rem;
+    padding: 1rem 2rem 4rem 2rem;
+  }
+  #montagemBloco1_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding-bottom: 3rem;
+  }
+  #montagemBloco1_2 img{
+    width: 20rem;
+  }
+
+  #cutscene{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../img/Capy/ink3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #cutscene h1{
+    padding: 4rem 4rem 2rem 4rem;
+    text-align: center;
+  }
+  #cutscene h3{
+      padding: 3rem 16rem 3rem 16rem;
+      text-align: center;
+  }
+  #cutscene img{
+    width: 60rem;
+  }
+  #video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #DiarioTitle{
+    text-align: center;
+    padding-top: 3rem;
+  }
+  #Diarioh3{
+    padding: 0rem 10rem 3rem 10rem;
+    text-align: center;
+  }
+  #diario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 4rem;
+  }
+  #diario img{
+    width: 50rem;
+  }
+  #diario #diarioDiv img{
+    width: 20rem;
+  }
+  #diario #diarioDiv #diarioGif img{
+    width: 10rem;
+    padding-bottom: 2rem;
+  }
+  #diarioDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #Dialogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  #Dialogo h1{
+    text-align: center;
+  }
+  #Dialogo img{
+    width: 60rem;
+  }
+  #Dialogo #DialogoDiv img{
+    width: 28rem;
+  }
+  #Dialogo #DialogoDiv h3{
+    width: 28rem;
+  }
+  #DialogoDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    gap: 4rem;
+    padding-bottom: 10rem;
+  }
+
+/* copyrigt */
+.copyrigt{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: lemon_milk;
+  font-size: 0.8rem;
+  position: relative;
+  bottom: 60px;
+}

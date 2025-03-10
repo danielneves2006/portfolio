@@ -1,0 +1,381 @@
+*{margin: 0%;}
+
+@font-face {
+    font-family:'ConcertOne';
+    src: url(../font/fonteDimGon/concert-one/ConcertOne-Regular.ttf);
+}
+@font-face {
+    font-family:'lemon_milk';
+    src: url(../font/lemon_milk/LEMONMILK-Medium.otf);
+}
+@font-face {
+    font-family:'inter';
+    src: url(../font/inter/Inter_18pt-Black.ttf);
+}
+
+
+body{
+    background-color: #5BB6C3;
+    color: #fff;
+    overflow-x: hidden; /* Esconde apenas a rolagem horizontal */
+}
+
+h3{
+  font-family: inter;
+  font-size: 1.5rem;
+  color: #266F7A;
+  text-align: start;
+}
+p{
+    font-family: inter;
+    font-size: 1.5rem;
+    color: #266F7A;
+    text-align: start;
+}
+h1{
+  font-family: ConcertOne;
+  font-size: 5rem;
+  color: #fff;
+  text-align: center;
+}
+
+/*Bloco Inicial*/
+.BlocoElements{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+  }
+  .BlocoElements a{
+    text-decoration: none;
+  }
+  .BlocoElements h1{
+    font-size: 5rem;
+    padding-top: 3rem;
+  }
+  .BlocoElements h2{
+    font-family: inter;
+    font-size: 1rem;
+    color: #fff;
+  }
+  .BlocoElements h3{
+    font-size: 0.8rem;
+    color: #fff;
+    padding-bottom: 1rem;
+  }
+  .BlocoElements p{
+    text-align: justify;
+    width: 45rem;
+    padding: 1rem 2rem 4rem 2rem;
+
+  }
+  .BlocoElements img{
+    width: 45rem;
+    padding: 2rem 2rem 0.4rem 2rem;
+  }
+
+  /*ichiIO*/
+  #ichiIO{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4B8891;
+    padding: 1rem;
+    gap: 2rem;
+  }
+  #ichiIO h2{
+    font-family: ConcertOne;
+    font-size: 3rem;
+    color: #fff;
+  }
+  #ichiIO a{
+    font-family: ConcertOne;
+    font-size: 2.5rem;
+    color: #fff;
+  }
+  #ichiIO a:hover{
+    transform: scale(1.05);
+    transition: ease-in-out .2s;
+  }
+
+  /*Especificações*/
+  #especificacoes{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 8rem;
+  }
+  #especificacoes img{
+    width: 5rem;
+    padding-top: 5rem;
+  }
+  #engine{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    gap: 1rem;
+  }
+  #engine h2{
+    padding-top: 4rem;
+    font-family: inter;
+    font-size: 2rem;
+    color: #fff;
+  }
+  #estilo{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    gap: 1rem;
+  }
+  #estilo h2{
+    padding-top: 4rem;
+    font-family: inter;
+    font-size: 2rem;
+    color: #fff;
+  }
+  #design{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    gap: 1rem;
+  }
+  #design h2{
+    padding-top: 4rem;
+    font-family: inter;
+    font-size: 2rem;
+    color: #fff;
+  }
+
+  /*Desafio*/
+  #desafio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 6rem;
+  }
+  #desafio h3{
+    color: #266F7A;
+    text-align: center;
+    width: 60rem;
+    padding: 1rem 2rem 4rem 2rem;
+  }
+
+  /*Metodologia*/
+  #metodoABA{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #metodoABAdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  #metodoABAdiv #bloco1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30rem;
+    gap: 4rem;
+    padding: 2rem;
+  }
+  #metodoABAdiv #bloco1 img{
+    width: 30rem;
+  }
+  #metodoABAdiv #bloco2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30rem;
+    gap: 2rem;
+    padding: 2rem;
+  }
+  #metodoABAdiv #bloco2 span{
+    color: #fff;
+  }
+
+  /*Vídeo*/
+  #video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12rem;
+    padding:  6rem 7rem 6rem 3rem;
+  }
+  #video img{
+    width: 30rem;
+  }
+
+  /*Bloco de Mecânica com Home*/
+  #mecanicaHome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
+  #mecanicaHome img{
+    width: 20rem;
+  }
+
+  /*Mecânica*/
+  #mecanicaHome #mecanica{
+    width: 25rem;
+  }
+  #mecanicaHome #mecanica h1{
+    padding-bottom: 10rem;
+  }
+  #mecanicaHome #mecanica h3{
+    padding-bottom: 13rem;
+    padding-left: 3rem;
+  }
+
+  /*Home*/
+  #mecanicaHome #home{
+    width: 25rem;
+  }
+  #mecanicaHome #home h1{
+    padding-bottom: 10rem;
+  }
+  #mecanicaHome #home h3{
+    padding-bottom: 4rem;
+  }
+  #mecanicaHome #home ul{
+    padding-bottom: 10rem;
+    padding-left: 5rem;
+  }
+
+  /*Minigames*/
+  #Minigames{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 6rem;
+  }
+  #minigamesImgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #minigamesImgs img{
+    width: 15rem;
+    padding: 3rem 5rem 2rem 5rem;
+  }
+  #Minigames h1{
+    font-size: 5rem;
+
+  }
+  #Minigames h3{
+    width: 70rem;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  /**/
+  #estrelasLojaPet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding: 5rem;
+  }
+  #estrelas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+    width: 30rem;
+
+  }
+  #estrelas img{
+    width: 15rem;
+  }
+  #lojaPet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+    width: 35rem;
+  }
+  #lojaPetImgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  #lojaPet img{
+    width: 15rem;
+    height: 33rem;
+  }
+
+  /*Configuração*/
+  #configuracao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    padding: 2rem;
+  }
+  #configuracaoBloco{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30rem;
+  }
+  #configuracaoBloco p{
+    text-align: center;
+    padding-top: 5rem
+  }
+
+  /*futurosMinigames*/
+  #futurosMinigames{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #futurosMinigamesConteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 4rem;
+  }
+  #futurosMinigamesTextos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 25rem;
+    gap: 3rem;
+  }
+  #futurosMinigamesTextos h3{
+    text-align: center;
+  }
+  #futurosMinigames img{
+    width: 15rem;
+    height: 33rem;
+  }
+
+/* copyrigt */
+  .copyrigt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: lemon_milk;
+    font-size: 0.8rem;
+    position: relative;
+    bottom: 60px;
+    padding-top: 6rem;
+    color: #fff;
+  }

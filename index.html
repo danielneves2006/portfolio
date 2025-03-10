@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Daniel Neves</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
+
+<body>
+    <header>
+        <div id="Banner">
+            <div id="Content">
+                <h1>Daniel Neves</h1>
+                <h2>Game Developer | 2D artist | Web Design</h2>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div id="MainGeral">
+            <div id="MainElements">
+                <div id="SobreMim">
+                    <h1 class="Title1">Sobre Mim</h1>
+
+                    <div id="blocos">
+                        <!--Bloco 1 Infos-->
+                        <div id="bloco1">
+                            <div id="tabcontainer1">
+                                <h1>Daniel Neves</h1>
+                                <h2>Game Developer | 2D artist | Web Design</h2>
+                            </div>
+                            <div id="tabcontainer2">
+                                <div id="container2_1">
+                                    <p>
+                                        Cursei o Curso Técnico em Informática integrado ao Nível Médio na IFMT,
+                                        agora estou cursando Jogos Digitais na ECDD. Desenvolvi vários
+                                        projetos relacionados a jogos e sites. Sou um artista e programador
+                                        apaixonado na criação de projetos desafiadores, desde tecnologias
+                                        novas até sistemas complexos. Espero que goste do meu portifólio!
+                                    </p>
+                                </div>
+                                <div id="container2_2">
+                                    <h3>Experiência</h3>
+                                    <ul>
+                                        <li>Técnico de Informática</li>
+                                        <li>Cusando Jogos Digitais na ECDD</li>
+                                        <li>2 Jogos Lançados</li>
+                                        <li>Python, JAVA, Kotlin - <br>AndroidStudio,
+                                            C#, HTML, CSS, JavaScript</li>
+                                        <li>Inglês avançado</li>
+                                    </ul>
+                                    <div id="bttMeuCurriculo"> <a href="#">Meu Currículo</a></div>
+                                </div>
+                            </div>
+                            <div id="localizacao">
+                                <img src="img/address-location-icon.png" alt="icone de localização">
+                                <h4>BARRA DO GARÇAS - MT</h4>
+                            </div>
+                        </div>
+
+                        <!--Bloco 2 Foto-->
+                        <div id="bloco2">
+                            <img src="img/Eu-Linkedin.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--PROJETOS-->
+                <div id="Projetos">
+                    <h1 class="Title2">Projetos</h1>
+                </div>
+                <div id="TabGeral">
+                    <div class="tab">
+                        <button class="tabBtt" onclick="openPortifolio(event, 'GameDeveloper')">Game Developer</button>
+                        <button class="tabBtt" onclick="openPortifolio(event, '2Dartist')">2D artist</button>
+                        <button class="tabBtt" onclick="openPortifolio(event, 'WebDesign')">Web Design</button>
+                    </div>
+                </div>
+            </div>
+
+            <!--defaultTab-->
+            <div id="defaultTab" class="tabcontent">
+
+                <!--defaultTabBloco1-->
+                <div id="defaultTabBloco1">
+                    <div id="defaultTabContainer1">
+                        <div id="Engrenagem1">
+                            <img src="img/engrenagem1.png" alt="" class="autoRotate">
+                        </div>
+                        <div id="Engrenagem2">
+                            <img src="img/engrenagem2.png" alt="" class="autoRotate">
+                        </div>
+
+                        <div id="espaçamento"></div>
+
+                        <div id="Engrenagem3">
+                            <img src="img/engrenagem3.png" alt="" class="autoRotate">
+                        </div>
+                    </div>
+                    <div id="defaultTabContainer2">
+                        <img src="img/selecioneUmProjeto.png" alt="">
+                    </div>
+                    <div id="defaultTabContainer3">
+                        <img src="img/canos.png" alt="" class="shakeOnScroll">
+                    </div>
+                </div>
+
+                <!--defaultTabBloco2-->
+                <div id="defaultTabBloco2">
+                    <div id="engrenagemEsqueda">
+                        <img src="img/engrenagemPrincipal.png" alt="" class="autoRotate">
+                    </div>
+
+                    <div id="homemAmarelo">
+                        <img src="img/homemAmarelo.png" alt="" class="flutuando">
+                    </div>
+
+                    <div id="engrenagemDireita">
+                        <img src="img/engrenagemPrincipal2.png" alt="" class="autoRotate">
+                    </div>
+                </div>
+
+                <!--defaultTabBloco3-->
+                <div id="defaultTabBloco3">
+                    <div id="estatuaPensador">
+                        <img src="img/estatuaPensando.png" alt="" class="flutuando">
+                    </div>
+                    <div id="maosDinheiro">
+                        <img src="img/maosDinheiro.png" alt="">
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!--GameDeveloperTab-->
+            <div id="GameDeveloper" class="tabcontent">
+
+                <div class="ArtStation">
+                    <div id="ArtStationLink">
+                        <img src="img/ArtStationIcon.png" alt="">
+                        <a href="https://www.artstation.com/cartola_branca2125/albums/13652525">ArtStation</a>
+                    </div>
+                </div>
+
+
+                <!--CardContainer-->
+                <div class="CardContainer swiper">
+                    <div class="slider-wrapper">
+                        <div class="cardList swiper-wrapper" style="width: 15rem;">
+
+                            <div class="CardItem swiper-slide">
+                                <a href="CapyRunner/CapyRunnerIndex.html">
+                                    <img src="img/GameDev/CapyBanner.png" alt="">
+                                </a>
+                            </div>
+
+                            <div class="CardItem swiper-slide">
+                                <a href="DimGon/DinGon.html">
+                                    <img src="img/GameDev/DimGonBanner.png" alt="">
+                                </a>
+                            </div>
+
+                            <div class="CardItem swiper-slide">
+                                <a href="TropicanasFood/tropicanasFood.html">
+                                    <img src="img/GameDev/TropicanasBanner.png" alt="">
+                                </a>
+                            </div>
+
+                            <div class="CardItem swiper-slide">
+                                <a href="CapyRunner/CapyRunnerIndex.html">
+                                    <img src="img/GameDev/CapyBanner.png" alt="">
+                                </a>
+                            </div>
+
+                            <div class="CardItem swiper-slide">
+                                <a href="DimGon/DinGon.html">
+                                    <img src="img/GameDev/DimGonBanner.png" alt="">
+                                </a>
+                            </div>
+
+                            <div class="CardItem swiper-slide">
+                                <a href="TropicanasFood/tropicanasFood.html">
+                                    <img src="img/GameDev/TropicanasBanner.png" alt="">
+                                </a>
+                            </div>
+
+                        </div>
+
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-slide-button swiper-button-prev"></div>
+                        <div class="swiper-slide-button swiper-button-next"></div>
+                    </div>
+                </div>
+
+                <div id="GamesConteiner">
+
+                    <div id="CapyRunner" class="BlocoElements">
+                        <a href="CapyRunner/CapyRunnerIndex.html">
+                            <h1>Capy Runner</h1>
+                            <h2>(Diretor Geral & Diretor de Arte)</h2>
+                            <img src="img/GameDev/CapyBanner.png" alt="">
+                            <h3>(Em processo de registro junto ao INPI)</h3>
+                        </a>
+                        <p>
+                            Jogo de Plataforma 2D Pixel Art Educacional de Biologia onde
+                            uma Capivara ao ser sequestrada vaga pelo Brasil, nos 6 biomas,
+                            a procura de seu bando, encontrando no caminho toda a fauna, flora
+                            e cultura do nosso país.
+                        </p>
+                    </div>
+
+                    <div id="DimGon" class="BlocoElements">
+                        <a href="DimGon/DinGon.html">
+                            <h1>Dim Gon</h1>
+                            <h2>(Diretor Geral, Programador e Artista 2D)</h2>
+                            <img src="img/GameDev/DimGonBanner.png" alt="">
+                            <h3>(Em processo de registro junto ao INPI)</h3>
+                        </a>
+                        <p>
+                            Plataforma de minigames educacionais para crianças autistas,
+                            que desenvolve a coordenação motora fina, pensamento matemático,
+                            desenvolvimento artístico, língua portuguesa e exercícios de fala.
+                        </p>
+                    </div>
+
+                    <div id="TropicanasFood" class="BlocoElements">
+                        <a href="TropicanasFood/tropicanasFood.html">
+                            <h1>🍃Tropicana's Food🍃</h1>
+                            <h2>(Game Designer & Artista 3D)</h2>
+                            <img src="img/GameDev/TropicanasBanner.png" alt="">
+                        </a>
+                        <p>
+                            Simulador de food truck onde nosso protagonista tem que
+                            entregar as refeições aos clientes, assim como prepará-las,
+                            criando um ambiente agradável.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--2DartistTab-->
+            <div id="2Dartist" class="tabcontent">
+
+                <div class="ArtStation">
+                    <div id="ArtStationLink">
+                        <img src="img/ArtStationIcon.png" alt="">
+                        <a href="https://www.artstation.com/cartola_branca2125">ArtStation</a>
+                    </div>
+                </div>
+
+
+                <!--CardContainer-->
+                <div class="CardContainer swiper">
+                    <div class="slider-wrapper">
+                        <div class="cardList swiper-wrapper" style="width: 15rem;">
+
+                            <div class="CardItem swiper-slide">
+                                <a href="https://www.artstation.com/artwork/14zY4q">
+                                    <img src="img/2DArtista/AC23.png" alt="">
+                                </a>
+                            </div>
+
+                            <div class="CardItem swiper-slide">
+                                <a href="https://www.artstation.com/artwork/49X6Ln">
+                                    <img src="img/2DArtista/Charlata.jpg" alt="">
+                                </a>
+                            </div>
+
+                            <div class="CardItem swiper-slide">
+                                <a href="https://www.artstation.com/artwork/LenVxK">
+                                    <img src="img/2DArtista/folhasHQ.png" alt="">
+                                </a>
+                            </div>
+
+                            <div class="CardItem swiper-slide">
+                                <a href="https://www.artstation.com/artwork/5WnV31">
+                                    <img src="img/2DArtista/Infancia.png" alt="">
+                                </a>
+                            </div>
+
+                            <div class="CardItem swiper-slide">
+                                <a href="https://www.artstation.com/artwork/obAZak">
+                                    <img src="img/2DArtista/oBoboEoRei.jpg" alt="">
+                                </a>
+                            </div>
+
+                            <div class="CardItem swiper-slide">
+                                <a href="https://www.artstation.com/artwork/klVdL6">
+                                    <img src="img/2DArtista/OsContosDeLyram.png" alt="">
+                                </a>
+                            </div>
+
+                            <div class="CardItem swiper-slide">
+                                <a href="https://www.artstation.com/artwork/1NlP2L">
+                                    <img src="img/2DArtista/RuinasNecrodraconicasReduzida.png" alt="">
+                                </a>
+                            </div>
+
+                        </div>
+
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-slide-button swiper-button-prev"></div>
+                        <div class="swiper-slide-button swiper-button-next"></div>
+                    </div>
+                </div>
+
+                <!--Concept-->
+                <div id="Concept">
+                    <h1 class="titleColorAnimation">Concept</h1>
+
+                    <div id="ArtistConteinerUm">
+                        <div id="ArtistConteinerUmBloco1">
+                            <div id="ACvinteTres" class="BlocoElements">
+                                <a href="https://www.artstation.com/artwork/14zY4q">
+                                    <h1>AC23</h1>
+                                    <img src="img/2DArtista/AC23.png" alt="">
+                                </a>
+                                <p>
+                                    Concept e exploração de um robo guarda cyberpunk, passando
+                                    de concepts, animações 2D e criação em 3D <br><br><br>
+                                </p>
+                            </div>
+
+                            <div id="time" class="BlocoElements">
+                                <a href="https://www.artstation.com/artwork/LenVxK">
+                                    <h1>Time</h1>
+                                    <img src="img/2DArtista/folhasHQ.png" alt="">
+                                </a>
+                                <p>
+                                    É um HQ onde os animais antropomofos vive uma realidade brasileira 
+                                    e temas sensíveis como depressão, uso de drogas, guerra e suicídio 
+                                    -produzido por Gabriel Dias e Daniel Neves 
+                                </p>
+                            </div>
+                        </div>
+
+                        <div id="ArtistConteinerUmBloco2">
+                            <div id="Infancia" class="BlocoElements">
+                                <a href="https://www.artstation.com/artwork/5WnV31">
+                                    <h1>Infância</h1>
+                                    <img src="img/2DArtista/Infancia.png" alt="">
+                                </a>
+                                <p>
+                                    Teste para um estúdio de jogos, desenvolvimento de estilo e 
+                                    paleta para persongens fofos
+                                </p>
+                            </div>
+
+                            <div id="OsContosDeLyram" class="BlocoElements">
+                                <a href="https://www.artstation.com/artwork/klVdL6">
+                                    <h1>Os Contos De Lyram</h1>
+                                    <img src="img/2DArtista/OsContosDeLyram.png" alt="">
+                                </a>
+                                <p>
+                                    Conceitos e desenvolvimento de mundo de um livro pessoal
+                                    chamado "Os Contos de Lyram" 
+                                </p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <!--IlustracaoContainer-->
+                <div id="IlustracaoContainer">
+                    <h1 class="titleColorAnimation">Ilustração</h1>
+
+                    <div id="ArtistConteinerDois">
+
+                        <div id="RuinasNecrodraconicas" class="BlocoElements">
+                            <a href="https://www.artstation.com/artwork/1NlP2L">
+                                <h1>Ruinas Necrodracônicas</h1>
+                                <img src="img/2DArtista/RuinasNecrodraconicas.jpg" alt="">
+                            </a>
+                            <p>
+                                Ilustra de uma cena de minha campanha de RPG
+                            </p>
+                        </div>
+
+                        <div id="OBoboeoRei" class="BlocoElements">
+                            <a href="https://www.artstation.com/artwork/obAZak">
+                                <h1>O Bobo e o Rei</h1>
+                                <img src="img/2DArtista/oBoboEoRei.jpg" alt="">
+                            </a>
+                            <p>
+                                Um projeto para simular um briefing com meus seguidores
+                                do instagram me orientando sobre o que devo fazer
+                            </p>
+                        </div>
+
+                        <div id="ACharlata" class="BlocoElements">
+                            <a href="https://www.artstation.com/artwork/49X6Ln">
+                                <h1>A Charlatã</h1>
+                                <img src="img/2DArtista/Charlata.jpg" alt="">
+                            </a>
+                            <p>
+                                Ilustra de uma cena de minha campanha de RPG
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!--WebDesignTab-->
+            <div id="WebDesign" class="tabcontent">
+
+                <!--CardContainer-->
+                <div class="CardContainer swiper">
+                    <div class="slider-wrapper">
+                        <div class="cardList swiper-wrapper" style="width: 15rem;">
+
+                            <div class="CardItem swiper-slide">
+                                <a href="https://danielneves2006.github.io/Teras-Studio-site/">
+                                    <img src="img/WebDesign/terasStudio.png" alt="">
+                                </a>
+                            </div>
+
+                            <div class="CardItem swiper-slide">
+                                <a href="#">
+                                    <img src="img/WebDesign/apptite.png" alt="">
+                                </a>
+                            </div>
+
+                            <div class="CardItem swiper-slide">
+                                <a href="#">
+                                    <img src="img/WebDesign/biopixel.png" alt="">
+                                </a>
+                            </div>
+
+                            <div class="CardItem swiper-slide">
+                                <a href="https://danielneves2006.github.io/Teras-Studio-site/">
+                                    <img src="img/WebDesign/terasStudio.png" alt="">
+                                </a>
+                            </div>
+
+                            <div class="CardItem swiper-slide">
+                                <a href="#">
+                                    <img src="img/WebDesign/apptite.png" alt="">
+                                </a>
+                            </div>
+
+                            <div class="CardItem swiper-slide">
+                                <a href="#">
+                                    <img src="img/WebDesign/biopixel.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-slide-button swiper-button-prev"></div>
+                        <div class="swiper-slide-button swiper-button-next"></div>
+                    </div>
+                </div>
+
+                <!--sitesContainer-->
+                <div id="sites">
+                    <div class="siteElement">
+
+                        <div class="conteudoPincipalSite">
+                            <a href="https://danielneves2006.github.io/Teras-Studio-site/">
+                                <h1>Téras Studio</h1>
+                                <img  src="img/WebDesign/terasStudio.png" alt="">
+                            </a>
+                        </div>
+
+                        <div class="sitesRodape">
+                            <div class="gitHub">
+                                <img src="img/iconsGitHub.png" alt="">
+                                <a href="https://github.com/danielneves2006/Teras-Studio-site">GitHub</a>
+                            </div>
+                            <div class="url">
+                                <img src="img/URL_Icon.png" alt="">
+                                <h1>URL:</h1>
+                                <a href="https://danielneves2006.github.io/Teras-Studio-site/">https://danielneves2006.github.io/Teras-Studio-site/index.html</a>
+                            </div>
+                        </div>
+
+                        <p>Site de apresentação do meu Estudio de Games educacionais</p>
+                    </div>
+
+
+                    <div class="siteElement">
+
+                        <div class="conteudoPincipalSite">
+                            <a href="#">
+                                <h1>AppTite</h1>
+                                <img  src="img/WebDesign/apptite.png" alt="">
+                            </a>
+                        </div>
+
+                        <div class="sitesRodape">
+                            <div class="gitHub">
+                                <img src="img/iconsGitHub.png" alt="">
+                                <a href="">GitHub</a>
+                            </div>
+                            <div class="url">
+                                <img src="img/URL_Icon.png" alt="">
+                                <h1>URL:</h1>
+                                <a href="">https://danielneves2006.github.io/Teras-Studio-site/index.html</a>
+                            </div>
+                        </div>
+                        
+                        <p>Freelance de um site de receitas</p>
+                    </div>
+
+                    <div class="siteElement">
+
+                        <div class="conteudoPincipalSite">
+                            <a href="#">
+                                <h1>BioPixel</h1>
+                                <img  src="img/WebDesign/biopixel.png" alt="">
+                            </a>
+                        </div>
+
+                        <div class="sitesRodape">
+                            <div class="gitHub">
+                                <img src="img/iconsGitHub.png" alt="">
+                                <a href="">GitHub</a>
+                            </div>
+                            <div class="url">
+                                <img src="img/URL_Icon.png" alt="">
+                                <h1>URL:</h1>
+                                <a href="">https://danielneves2006.github.io/Teras-Studio-site/index.html</a>
+                            </div>
+                        </div>
+                        
+                        <p>
+                            Site pessoal de consulta e analise de fauna e flora de determinados 
+                            lugares com Bancos de dados (Incopleto) fiz toda a parte funcional 
+                            em phyton e comecei a produção do site em HTML, CSS e JS. Futuramente 
+                            pretendo implementar os dois juntos: 
+                        </p>
+
+                        <div class="gitHub" id="gitHubPhyton">
+                            <img src="img/iconsGitHub.png" alt="">
+                            <a href="">GitHub do Phyton</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <p class="copyrigt">
+            © 2024 - Todos os direitos reservados
+        </p>
+        </div>
+
+    </main>
+
+
+    <!--Link Swipwer script-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src='script.js'></script>
+
+</body>
+
+</html>
