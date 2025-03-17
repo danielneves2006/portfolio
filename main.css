@@ -649,8 +649,6 @@ body{
     }
 }
 
-
-
 /* copyrigt */
 .copyrigt{
     display: flex;
@@ -661,4 +659,190 @@ body{
     font-size: 0.8rem;
     position: relative;
     bottom: 60px;
+}
+@media screen and (max-width: 1024px){
+  /*Banner*/
+  #Banner #Content h1{
+    font-size:5rem ;
+    text-align: center;}
+  #Banner #Content h2{
+    font-size:1rem ;
+    text-align: center;}
+  #Banner::before{
+    background-image: url(img/RuinasNecrodraconicasMobile.png);
+    background-size: contain;
+    background-repeat: no-repeat;  
+    mask-size: cover;
+  }
+    
+  /*Banner*/
+  #MainElements{
+    padding: 0;}
+  .Title1 {
+    font-size: 3.5rem;}
+  .Title2 {
+    font-size: 3.5rem;}
+  #SobreMim{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#SobreMim img{
+    height: 35rem;
+    padding: 2rem;
+}
+#SobreMim .Title1{
+    padding-bottom: 1rem;
+}
+/*Blocos*/
+#blocos{
+  flex-direction: column-reverse;
+}
+/* BLOCO 2 IMGs */
+#bloco2{
+  background-image: url(img/MinhaFotoCelular.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 15rem;
+  height: 20rem;
+}
+#bloco2 img{
+  opacity: 0;
+}
+/* BLOCO 1 INFOS */
+#bloco1{
+  padding: 1rem 1rem 0rem 1rem;
+}
+
+#tabcontainer1 h1{
+  font-size:3rem ;
+  text-align: center;
+}
+#tabcontainer1 h2{
+  font-size:1rem ;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+#tabcontainer2 #container2_1 p{
+  font-size:0.8rem ;
+}
+#tabcontainer2 #container2_1{
+  width: 10rem;
+}
+#tabcontainer2 #container2_2{
+  width: 10rem;
+}
+#tabcontainer2 #container2_2 h3{
+  font-size:0.8rem ;
+}
+#tabcontainer2 #container2_2 li{
+  font-size:0.8rem ;
+}
+#tabcontainer2 #container2_2 ul{
+  padding: 1rem 0 1rem 0;
+}
+#bttMeuCurriculo{
+  padding: 0.6rem;
+  width: 8.5rem;
+}
+#bttMeuCurriculo a{
+  font-size:0.8rem ;
+}
+#localizacao{
+  justify-content: center;
+  padding-left: 0;
+}
+#localizacao h4{
+  font-size: 0.8rem ;
+}
+#localizacao img{
+  width: 1.8rem;
+  height: 2.3rem;
+}
+
+/* Projetos */
+#Projetos{
+  margin: 2rem;
+}
+
+/* TAB oi */
+.tabcontent {
+  display: none; /* Oculta todas as abas por padrão */
+}
+.tab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: #000;
+  gap: 1rem;
+  padding: 0.7rem;
+}
+.tabBtt{
+  width: 7rem;
+  font-size: 1.45rem;
+}
+.tabcontent {
+  padding: 0rem;
+}
+
+/* Defaut */
+/* defaultTab BLOCO1 */
+#defaultTabBloco1 #Engrenagem1 img{
+  width: 5rem;
+  right: -20px;
+  top: -40px;
+}
+#defaultTabBloco1 #Engrenagem2 img{
+  width: 2rem;
+  right: -10px;
+  top: -40px;
+}
+#espaçamento{
+  padding-top: 5rem;
+}
+#defaultTabBloco1 #Engrenagem3 img{
+  width: 3rem;
+  right: -20px;
+  top: -40px;
+}
+#defaultTabBloco1 #defaultTabContainer2 img{
+  width: 18rem;
+  position: relative;
+  top: -100px;
+  right: -40px;
+}
+#defaultTabBloco1 #defaultTabContainer3 img{
+  width: 8rem;
+  padding:  2rem 0 2rem 0;
+  right: -0px;
+  top: -40px;
+}
+/* defaultTab BLOCO2 */
+#defaultTabBloco2 #engrenagemEsqueda img{
+  width: 25rem;
+  right: -100px;
+}
+#defaultTabBloco2 #homemAmarelo img{
+  width: 20rem;
+  right: 60px;
+  top: -150px;
+}
+#defaultTabBloco2 #engrenagemDireita img{
+  width: 20rem;
+  right: 150px;
+}
+/* defaultTab BLOCO3 */
+#defaultTabBloco3 #estatuaPensador img{
+  width: 12rem;
+  right: -30px;
+  top: -50px;
+}
+#defaultTabBloco3 #maosDinheiro img{
+  width: 15rem;
+  right: 25px;
+  bottom: 100px;
+}
 }
