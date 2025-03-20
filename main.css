@@ -276,7 +276,6 @@ body{
     width: 60rem;
     padding-top: 5rem;
 }
-
 #defaultTabBloco1 #defaultTabContainer3 img{
     width: 20rem;
     position: relative;
@@ -845,4 +844,145 @@ body{
   right: 25px;
   bottom: 100px;
 }
+
+/* GameDevTab*/
+/* ArtStation*/
+.ArtStation{
+  margin-top: 3rem;
+  background-image: url(img/GameDev/manchaFundo.png) ;
+}
+.ArtStation a{
+  font-size: 2rem;
+}
+.ArtStation img{
+  width: 2rem;
+}
+/* CardContainer*/
+.CardContainer{
+  width: 90vw;
+}
+.CardItem img{
+  height: 10rem;
+  padding-right: 4rem;
+}
+.CardContainer {
+  margin-top: 1rem;
+}
+.cardList{
+  padding: 2rem;
+}
+.CardContainer{
+  margin: 2rem;
+}
+.BlocoElements{
+  padding-bottom: 2rem;
+}
+.BlocoElements h1{
+  font-size: 1.8rem;
+}
+.BlocoElements h2{
+  font-size: 0.7rem;
+}
+.BlocoElements h3{
+  font-size: 0.7rem;
+  padding-bottom: 1rem;
+}
+.BlocoElements p{
+  font-family: inter;
+  font-size: 0.8rem;
+  text-align: justify;
+  width: 20rem;
+  padding: 1rem 2rem 4rem 2rem;
+
+}
+.BlocoElements img{
+  width: 20rem;
+  padding: 2rem 2rem 0.4rem 2rem;
+}
+
+/* 2D Arstist Tab*/
+.titleColorAnimation{
+  font-size: 2.7rem;
+  padding: 3rem 0 5rem 0;
+}
+#ArtistConteinerUm{
+  flex-direction: column;
+}
+#ArtistConteinerUm .BlocoElements h1{
+  font-size: 1.5rem;
+}
+#ArtistConteinerUm .BlocoElements p{
+  font-size: 1.2rem;
+  width: 20rem;
+  padding: 1rem 2rem 2rem 2rem;
+}
+#ArtistConteinerUm .BlocoElements img{
+  width: 20rem;
+}
+#ArtistConteinerUmBloco1{
+  flex-direction: column;
+}
+#ArtistConteinerUmBloco2{
+  flex-direction: column;
+}
+
+/* Web Design Tab*/
+.siteElement h1{
+  font-size: 1.3rem;
+  padding-left: 2rem;
+  padding-bottom: 0.4rem;
+}
+.siteElement p{
+  font-size: 1rem;
+  color: #AF997A;
+  text-align: start;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 5rem;
+}
+.siteElement img{
+  width: 20rem;
+}
+
+.gitHub img{
+  width: 2rem;
+}
+.gitHub a{
+  font-size: 1.5rem;
+}
+#gitHubPhyton{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  position: relative;
+  bottom: 90px;
+  width: 30rem;
+  padding-left: 2rem;
+}
+
+.url img{
+  width: 2rem;
+}
+.url h1{
+  font-size: 1.5rem;
+  text-align: center;
+  padding-bottom: 2rem;
+  position: relative;
+  left: -15px;
+}
+.url a{
+  font-size: 0.6rem;
+  text-align: start;
+  width: 5rem;
+  padding:0;
+  position: relative;
+  right: 20px;
+}
+
+.sitesRodape{
+  align-items:start ;
+  flex-direction: column;
+  padding-left: 2rem;
+}
+
 }
