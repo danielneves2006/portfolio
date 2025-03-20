@@ -277,3 +277,167 @@ h1{
     position: relative;
     bottom: 60px;
   }
+
+  @media screen and (max-width: 1024px){  
+    h3{
+      font-size: 1rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+    h1{
+      font-size: 2rem;
+    }
+    
+    /*Bloco Inicial*/
+      .BlocoElements h1{
+        font-size: 2rem;
+      }
+      .BlocoElements h2{
+        font-size: 0.8rem;
+      }
+      .BlocoElements h3{
+        font-size: 0.8rem;
+      }
+      .BlocoElements p{
+        width: 20rem;
+      }
+      .BlocoElements img{
+        width: 20rem;
+      }
+    
+      /*ichiIO*/
+      #ichiIO{
+        gap: 1rem;
+      }
+      #ichiIO h2{
+        font-size: 2rem;
+      }
+      #ichiIO a{
+        font-size: 2rem;
+      }
+  
+      /*Especificações*/
+      #especificacoes{
+        padding-left: 0.8rem;
+        gap: 0.5rem;
+      }
+      #especificacoes img{
+        width: 2.5rem;
+        padding-top: 5rem;
+      }
+      #especificacoes h2{
+        position: relative;
+        top: 10px;
+      }
+      #engine{
+        gap: 0.4rem;
+      }
+      #engine h2{
+        font-size: 0.8rem;
+      }
+      #estilo{
+        gap: 0.4rem;
+      }
+      #estilo h2{
+        font-size: 0.8rem;
+      }
+      #design{
+        gap: 0.4rem;
+      }
+      #design h2{
+        font-size: 0.8rem;
+      }
+
+      /*Tema da Jam*/
+  #temaDaJAM{
+    padding: 6rem 0rem 6rem 0rem;
+  }
+  #temaDaJAM h3{
+    width: 20rem;
+    padding: 1rem 2rem 2rem 2rem;
+  }
+  #temaDaJamImgs{
+    flex-direction: column;
+    gap: 2rem;
+  }
+  #temaDaJamImgs img{
+    height: auto;
+    width: 20rem;
+  }
+  /*Bloco Gameplay e Game Design*/
+  #GameplayGameDesign{
+    flex-direction: column;
+    gap: 4rem;
+  }
+  /*Gameplay*/
+  #Gameplay img{
+    width: 20rem;
+  }
+  /*Game Design*/
+  #gameDesign h3{
+    padding-top: 2rem;
+    font-size: 1.5rem;
+    text-align: start;
+  }
+  /*imagens*/
+  #imagens1{
+    padding: 2rem;  
+  }
+  #imagens1 img{
+    width: 20rem;
+  }
+  #imagens2{
+    flex-direction: column;
+    gap: 3rem;
+  }
+  #imagens2 img{
+    width: 20rem;
+  }
+  #imagens2Bloco{
+    gap: 3rem;
+  }
+  #imagens2Bloco img{
+    width: 20rem;
+  }
+
+  /*Personagens*/
+  #personagensImgs{
+    flex-direction: column;
+    padding: 2rem 0rem 2rem 0rem;
+  }
+  #personagensImgs img{
+    height: auto;
+    width: 20rem;
+  }
+  #personagens h3{
+    width: 20rem;
+    text-align: center;
+  }
+
+  /*Cenário*/
+  #cenario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 10rem;
+  }
+  #cenario  #cenarioImagemPrincipal img{
+    width: 20rem;
+    padding-top: 3rem;
+  }
+  #cenarioBloco{
+    flex-direction: column-reverse;
+    gap: 2rem;
+    padding-top: 3rem;
+  }
+  #cenarioBloco img{
+    height: auto;
+    width: 20rem; 
+
+  }
+  #cenarioBloco h3{
+    width: 20rem; 
+  }
+  }
