@@ -613,7 +613,7 @@ html{
 }
 
 .autoRotate{
-  animation: autoRotateAnimation 8s infinite;
+  animation: autoRotateAnimation 15s infinite linear;
   will-change: transform;
 }
 @keyframes autoRotateAnimation{
