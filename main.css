@@ -36,7 +36,9 @@ body{
     overflow-x: hidden; /* Esconde apenas a rolagem horizontal */
     width: 100%;
 }
-
+html{
+  width: 100%;
+}
 #Banner{
     display: flex;
     align-items: center;
