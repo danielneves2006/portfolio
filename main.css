@@ -660,6 +660,11 @@ body{
     bottom: 60px;
 }
 @media screen and (max-width: 1024px){
+
+  body{
+    overflow-x: hidden; /* Esconde apenas a rolagem horizontal */
+    overscroll-behavior-x: contain;
+  }
   /*Banner*/
   #Banner #Content h1{
     font-size:5rem ;
