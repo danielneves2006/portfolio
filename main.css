@@ -36,9 +36,6 @@ body{
     overflow-x: hidden; /* Esconde apenas a rolagem horizontal */
     width: 100%;
 }
-html{
-  width: 100%;
-}
 #Banner{
     display: flex;
     align-items: center;
@@ -74,7 +71,7 @@ html{
     transition: font-family 1s ease-in-out;
     text-align: center;
     font-size: 5rem;
-    line-height: 4rem;
+    height: 5rem;
 }
 .Title2 {
     font-family: 'Vicenza', sans-serif; 
@@ -248,7 +245,7 @@ html{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
+    overflow-x: hidden;
 }
 #defaultTabBloco1{
     display: flex;
