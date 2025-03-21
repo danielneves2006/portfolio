@@ -325,7 +325,7 @@ body{
 }
 /* defaultTab Animation */
 .autoRotate{
-    animation: autoRotateAnimation;
+    animation: autoRotateAnimation ease-in-out;
     animation-timeline: view();
 }
 
