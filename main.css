@@ -36,6 +36,10 @@ body{
     overflow-x: hidden; /* Esconde apenas a rolagem horizontal */
     width: 100%;
 }
+html{
+  overflow-x: hidden;
+  width: 100%;
+}
 #Banner{
     display: flex;
     align-items: center;
@@ -324,11 +328,6 @@ body{
     right: -20px;
     bottom: 100px;
 }
-/* defaultTab Animation */
-.autoRotate{
-    animation: autoRotateAnimation ease-in-out;
-    animation-timeline: view();
-}
 
 /* GameDevTab*/
 
@@ -613,13 +612,17 @@ body{
     100% { background-position: 0% 50%; }
 }
 
+.autoRotate{
+  animation: autoRotateAnimation 5s infinite ease-in-out;
+  will-change: transform;
+}
 @keyframes autoRotateAnimation{
-    from{
-        transform: rotate(0deg)
-    }
-    to{
-        transform: rotate(100deg)
-    }
+  from{
+      transform: rotate(0deg);
+  }
+  to{
+      transform: rotate(100deg);
+  }
 }
 .shakeOnScroll{
     animation: shakeOnScrollAnimation 1s ease-in-out;
