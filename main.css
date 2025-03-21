@@ -613,7 +613,7 @@ html{
 }
 
 .autoRotate{
-  animation: autoRotateAnimation 5s infinite ease-in-out;
+  animation: autoRotateAnimation 8s infinite ease-in-out;
   will-change: transform;
 }
 @keyframes autoRotateAnimation{
@@ -621,7 +621,7 @@ html{
       transform: rotate(0deg);
   }
   to{
-      transform: rotate(100deg);
+      transform: rotate(360deg);
   }
 }
 .shakeOnScroll{
