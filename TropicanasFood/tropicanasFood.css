@@ -20,6 +20,10 @@ body{
     color: #fff;
     overflow-x: hidden; /* Esconde apenas a rolagem horizontal */
 }
+html{
+  overflow-x: hidden;
+  width: 100%;
+}
 h3{
   font-family: inter;
   font-size: 1.5rem;
@@ -276,6 +280,7 @@ h1{
     font-size: 0.8rem;
     position: relative;
     bottom: 60px;
+    color: #fff;
   }
   .copyrigt p{
     color: #fff;

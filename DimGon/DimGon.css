@@ -401,7 +401,10 @@ h1{
     overflow-x: hidden;
     width: 100%;
   }
-  
+  html{
+    overflow-x: hidden;
+    width: 100%;
+  }
   /*Bloco Inicial*/
     .BlocoElements h1{
       font-size: 2.5rem;
