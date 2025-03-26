@@ -277,6 +277,9 @@ h1{
     position: relative;
     bottom: 60px;
   }
+  .copyrigt p{
+    color: #fff;
+  }
 
   @media screen and (max-width: 1024px){  
     h3{
