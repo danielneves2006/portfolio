@@ -380,6 +380,10 @@ h1{
   bottom: 60px;
 }
 @media screen and (max-width: 1024px){
+  body{
+    overflow-x: hidden;
+    width: 100%;
+  }
   /*Banner*/
   .BlocoElements h1{
     font-size: 3rem;
