@@ -530,14 +530,24 @@ html{
   .gitHub{
     display:flex ;
     justify-content: center;
-    align-items:center ;
   }
   .gitHub:hover{
     transform: scale(1.05);
     transition: ease-in-out .2s;
   }
+  #sitesRodapeBiopixel{
+    position: relative;
+    right: 5rem;
+  }
+  #sitesRodapeApptite{
+    position: relative;
+    right: 5rem;
+  }
+
   .gitHub img{
     width: 4rem;
+    height: 4rem;
+    padding-top: 1.4rem;
   }
   .gitHub a{
     font-family: lemon_milk;
@@ -955,7 +965,21 @@ html{
 
 .gitHub img{
   width: 2rem;
+  height: 2rem;
+  position: relative;
+  top: 0.6rem;
 }
+#gitHubPhyton img{
+  position: relative;
+  top: -0.8rem;
+}
+#sitesRodapeBiopixel{
+  right: 0rem;
+}
+#sitesRodapeApptite{
+  right: 0rem;
+}
+
 .gitHub a{
   font-size: 1.5rem;
 }

@@ -53,6 +53,7 @@ h1{
   .BlocoElements h1{
     font-size: 5rem;
     padding-top: 3rem;
+    padding-bottom: 2rem;
   }
   .BlocoElements h2{
     font-family: inter;
