@@ -40,6 +40,18 @@ h1{
   font-size: 3rem;
   color: #E5E29C;
 }
+#back{
+  background-color: #445642;
+}
+#back img{
+  width: 3rem;
+  padding: 0.8rem;
+}
+#back img:hover{
+  transform: scale(1.08);
+  transition: ease-in-out .2s;
+}
+
    /*Banner Principal*/
   .BlocoElements{
     display: flex;

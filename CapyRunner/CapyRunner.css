@@ -37,6 +37,15 @@ h1{
   color: #fff;
 }
 
+#back img{
+  width: 3rem;
+  padding: 0.8rem;
+}
+#back img:hover{
+  transform: scale(1.08);
+  transition: ease-in-out .2s;
+}
+
 .BlocoElements{
     display: flex;
     justify-content: center;

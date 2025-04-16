@@ -39,21 +39,29 @@ body{
 html{
   overflow-x: hidden;
   width: 100%;
+  scroll-behavior: smooth;
 }
 #Banner{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     height: 100vh;
     position: relative;
 }
 #Banner #Content h1{
     font-size:7rem ;
     font-family: 'Vicenza';
+    padding-top: 10rem;
 }
 #Banner #Content h2{
     font-family: 'Vecna';
+    padding-bottom: 13rem;
 }
+#Banner img{
+  width: 6rem;
+}
+
 #Banner::before{
     content:'' ;
     position: absolute;
