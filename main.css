@@ -345,7 +345,7 @@ html{
     align-items: center;
     background-image: url(img/inkHorizontal.png) ;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: contain;    
     padding: 1rem;
     gap: 2rem;
 }
@@ -355,9 +355,12 @@ html{
     font-size: 3rem;
     text-align: center;
     font-family:inter ;
+    position: relative;
+    top: -0.8rem;
 }
 .ArtStation img{
     width: 4rem;
+
 }
 #ArtStationLink:hover{
     transform: scale(1.05);
